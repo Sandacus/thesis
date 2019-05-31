@@ -1,0 +1,18 @@
+# .gitignore file for LaTeX thesis
+ 
+Bibliography.bib.bak
+Bibliography.log
+SandyThesis.aux
+SandyThesis.bbl
+SandyThesis.blg
+SandyThesis.glo
+SandyThesis.glsdefs
+SandyThesis.ilg
+SandyThesis.ist
+SandyThesis.lof
+SandyThesis.lot
+SandyThesis.nlo
+SandyThesis.nls
+SandyThesis.out
+SandyThesis.synctex.gz
+SandyThesis.toc

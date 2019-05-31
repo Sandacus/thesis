@@ -1,0 +1,259 @@
+%%---Sandy's Thesis Style---
+%%==========================
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{SandyThesis}
+
+%%------- Page Setup --------------------------------------
+\RequirePackage{geometry} % allows page dimension and margin customisation
+	\geometry{
+ 	a4paper,
+ 	total={130mm,240mm}, % A4 is 210mm by 297mm; 
+					% 120mm for ~ 66 character with 12pt
+					% 115mm for ~ 66 character with 11pt
+ 	left=45mm,
+ 	top=33mm,
+ 	}
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%------- Font ---------------------------------------
+%\RequirePackage{libertine}
+\RequirePackage{palatino} % \fontfamily{pplj}\selectfont - command for selecting old style number
+\RequirePackage[scale=.95,type1]{cabin}
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%---------Line Spacing Package-------------------
+\RequirePackage{setspace}
+%	\doublespacing
+%	\onehalfspacing
+%	\singlespacing
+	\setstretch{2}
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%------- LaTeX Preamble - Common packages ----------
+\RequirePackage[utf8]{inputenc} % Any characters can be typed directly from the keyboard, eg Ã©Ã§Ã±
+\RequirePackage{textcomp} % provide lots of new symbols
+\RequirePackage{bbding} % provide even more symbols
+\RequirePackage{flafter}  % Don't place floats before their definition
+%\usepackage{topcapt}   % Define \topcation for placing captions above tables (not in gwTeX)
+\RequirePackage{amsmath,amssymb}  % Better maths support & more symbols
+\RequirePackage{bm}  % Define \bm{} to use bold math fonts
+\RequirePackage{xfrac} % Gives more options for displaying fractions
+\RequirePackage{siunitx}
+\RequirePackage{soul}
+\RequirePackage{lipsum}
+\RequirePackage{eurosym}  % package for the € symbol
+\RequirePackage[usenames,dvipsnames,svgnames,table]{xcolor} % use color names in latex commands
+\RequirePackage{gensymb}
+\RequirePackage{ragged2e} % defines justify environment
+\RequirePackage[nodayofweek]{datetime}
+\RequirePackage{blindtext} % dummy text; lorem ipsum etc.
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%------ foot notes ------------------------
+\RequirePackage{footnote}
+\RequirePackage[symbol]{footmisc} %% For getting * and daggers as footnotes instead of numbers
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%------ Margin notes ------------------------
+\RequirePackage{marginnote}
+	\renewcommand*{\marginfont}{\color{red}\sffamily\footnotesize}
+	\newcommand{\margin}[1]{\marginnote{\setstretch{.6}\parbox[t]{\marginparwidth}{\emph{#1}}}}
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%---- Line Numbers ----------------------
+\RequirePackage{lineno}
+%	   	\linenumbers % uncomment for linenumbers
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%------- Hyper reference links in the pdf -------
+\RequirePackage{hyperref}  % PDF hyperlinks, with coloured links
+	\definecolor{dullmagenta}{rgb}{0.6,0,0.1}   % #660066 
+	\definecolor{darkblue}{rgb}{0,0,0.4}	
+	% coloured links
+	\hypersetup{colorlinks=true, linktoc=page, linkcolor=dullmagenta, citecolor=blue, filecolor=dullmagenta, urlcolor=darkblue} 
+	% black links, for printed output
+	%\hypersetup{linkcolor=black, citecolor=black, filecolor=black, urlcolor=black} 
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%------- Chemistry Equations ---------------------
+\RequirePackage[version=4]{mhchem}
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%-------Tables---------------------------------------
+\RequirePackage{tabularx} % requires array package
+\RequirePackage{ltablex}
+\RequirePackage{longtable}
+\RequirePackage{array}
+\RequirePackage{booktabs}
+\RequirePackage{rotating} % rotating tables
+\RequirePackage[flushleft]{threeparttable}
+\RequirePackage{multirow}
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%------- Lists ---------------------------------------
+\RequirePackage{enumerate} % numbered lists
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%------- Figure caption formatting --------------
+\RequirePackage[margin={-0.5cm}]{caption}	
+	\renewcommand{\captionlabelfont}{\color{Sepia}\sffamily\bfseries}
+	\captionsetup{labelsep=period,textfont=sf,font=small,font={stretch=1.5}}
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%------- Graphics for figures and pics -----------
+\RequirePackage{graphicx}  % Add graphics capabilities
+\RequirePackage{epstopdf} % to include .eps graphics files with pdfLaTeX
+\RequirePackage{subfig}
+	\captionsetup[subfig]{margin=0pt} % So that main caption options don't affect it.
+\RequirePackage{subfloat}	
+	\captionsetup[subfloat]{margin=0pt} % So that main caption options don't affect it.
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%------- Nomenclature ------------------------------------------------------
+\RequirePackage[intoc]{nomencl} % Nomenclature package
+	\makenomenclature
+	\newcommand{\nomunit}[1]{%
+		\renewcommand{\nomentryend}{\hspace*{\fill}#1}}
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%------- References formatting -------------------
+\RequirePackage{natbib} % use author/date bibliographic citations
+	\renewcommand{\bibname}{References}
+	\def\bibfont{\small}
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%------- Table of contents formatting ------------
+%\RequirePackage[toc]{multitoc} % Make two columns in contents
+%	\renewcommand*{multicolumntoc}{3} % Make 3 columns or more...
+% multitoc stops list of figures working...
+\RequirePackage[nottoc]{tocbibind} % Adds list of figures and list of tables to the contents
+\RequirePackage{titletoc}
+%%== Alternative style like "Classic Thesis": uncomment below
+	\titlecontents{part}[0em]
+		{\vspace{0.2cm}\small\scshape\filright}
+		{\thecontentslabel}
+		{}
+		{\hspace{0.25cm}\thecontentspage}
+		[\vspace{0.1cm}]
+	
+	\titlecontents{chapter}[1em]
+		{\vspace{0.3cm}\normalsize \color{title} \bfseries \scshape \filright}
+		{\thecontentslabel. }
+		{}
+		{\hspace{0.25cm}\thecontentspage}
+	
+	\titlecontents{section}[3em]
+		{\vspace{-0.1cm}\small \itshape \filright}
+		{\thecontentslabel. }
+		{}
+		{\hspace{0.25cm}\thecontentspage}
+	
+	\titlecontents{subsection}[5em]
+		{\vspace{-0.1cm}\small \itshape \filright}
+		{\thecontentslabel. }
+		{}
+		{\hspace{0.25cm}\thecontentspage}
+	
+	\titlecontents{figure}[1em]
+		{\small \itshape \filright}
+		{\thecontentslabel. }
+		{}
+		{\hspace{0.25cm}\thecontentspage}
+		[\vspace{0.2cm}]
+	
+	\titlecontents{table}[1em]
+		{\small \itshape \filright}
+		{\thecontentslabel. }
+		{}
+		{\hspace{0.25cm}\thecontentspage}
+		[\vspace{0.2cm}]
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+
+%%------- Part, Chapter and Section heading formatting ---
+\definecolor{title}{rgb}{0.1,0.2,0.4}
+\RequirePackage{titlesec}
+%	\titleformat{\chapter}[hang]{\huge\color{NavyBlue}\itshape}
+%		{\thechapter.\hspace{12pt}}{0pt}{\itshape} % new chapter heading
+\renewcommand{\thechapter}{\arabic{chapter}}
+\titlespacing*{\chapter}{0pt}{*-12}{*8}
+\titleformat{\chapter}[display]
+  {\LARGE} %\itshape
+  {\normalfont\filleft\MakeUppercase{\Large\chaptertitlename} \Huge\fontfamily{pplj}\selectfont{\thechapter}}
+  {0ex}
+  {%\titlerule
+   \vspace{2ex}%
+   \filright
+	\color{title}\scshape}
+  [\color{Black}\vspace{1ex}%
+\titlerule]		
+
+	\titlespacing*{\section}{0pt}{*4}{*0.5} % '*' kills the indentation for the first paragraph
+	\titleformat{\section}[hang]
+		{\large\bfseries\color{title}}
+		{\thesection.\hspace{6pt}}{0pt}{\large\bfseries\scshape}
+	
+	\titlespacing*{\subsection}{0pt}{*4}{*0.5} % '*' kills the indentation for the first paragraph
+	\titleformat{\subsection}[hang]
+		{\normalsize\color{title}\bfseries\itshape} % \fontsize{16}{15} could use this to specify size {size}{linespace} need both arguments https://en.wikibooks.org/wiki/LaTeX/Fonts#Arbitrary_font_size
+		{\thesubsection.\hspace{6pt}}{0pt}{\normalsize\bfseries\itshape}
+	
+	\titleformat{\part}[hang]
+		{\centering\large\scshape\color{Maroon}}
+		{\thepart\hspace{10pt}}{0pt}{\Large\scshape} % new part heading
+		\titlelabel{\thetitle.\quad}
+%		\renewcommand{\thechapter}{\arabic{chapter}.} % add "." after number i.e. 1.
+%		\renewcommand{\thesection}{\thechapter\arabic{section}.} % add "." after number i.e. 1.1.
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+
+%%------- Headers & Footers -----------------------
+\RequirePackage{fancyhdr}
+		\fancypagestyle{front}{
+		\fancyhf{}
+		\lhead{}
+		\chead{}
+		\rhead{}
+		
+		\renewcommand{\headrulewidth}{0.2pt}
+		\renewcommand{\footrulewidth}{0.2pt}
+	\fancyfoot{} % clear footer
+	\fancyfoot[LE,RO]{\thepage}
+	}
+
+	\fancypagestyle{main}{
+		\fancyhf{}
+		\lhead{}
+		\chead{}
+		\rhead{\scriptsize\,\MakeUppercase{\chaptername \,  \thechapter}}
+		
+		\renewcommand{\headrulewidth}{0.2pt}
+		\renewcommand{\footrulewidth}{0.2pt}
+		\fancyfoot{} % clear footer
+		\fancyfoot[LE,RO]{\thepage}
+		}
+%		\renewcommand{\chaptermark}[1]{%
+% 			\markboth{\MakeUppercase{%
+% 			\chaptername\ \thechapter.%
+% 			\ #1}}{}}		
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%------- Quotes at start of chapters ------------
+\RequirePackage{epigraph}
+	\renewcommand{\epigraphsize}{\footnotesize\itshape}
+	\setlength\epigraphwidth{9.5cm}
+	\setlength\epigraphrule{0.5pt}
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%------- Referencing figure, tables and equations -------
+\RequirePackage[capitalise,nameinlink]{cleveref} % MUST come after "hyperref' package, best to load last!
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+%%------- Glossary/Abbreviations/Synonyms ----------------------------
+\RequirePackage[toc,nonumberlist,acronym]{glossaries} % Glossaries package
+%%------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+

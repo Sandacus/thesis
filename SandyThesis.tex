@@ -1,0 +1,75 @@
+%=====================================================
+%	SANDY THESIS TEMPLATE
+%=====================================================
+\documentclass[a4paper,12pt,oneside]{book} %oneside - for printing on one side
+\usepackage{SandyThesis} %Provides all the packages that were originally below to make it more neat
+%=====================================================
+%	PERSONAL INFO
+%=====================================================
+\newcommand{\myTitle}{a clear and concise title for your thesis}
+\newcommand{\mySubtitle}{An optional subtitle}
+\newcommand{\myDegree}{Name of degree programme}
+\newcommand{\myName}{your name}
+\newcommand{\myProf}{Your Supervisor/Professor}
+\newcommand{\myOtherProf}{Your other supervisor/professor}
+\newcommand{\mySupervisor}{Put name here\xspace}
+\newcommand{\myFaculty}{Faculty of XXXXXX}
+\newcommand{\myDepartment}{Department of XXXXXX}
+\newcommand{\myUni}{University of XXXXXX}
+\newcommand{\myLocation}{Town, Country}
+\newcommand{\myTime}{\textsc{month \fontfamily{pplj}\selectfont year}} % fontfamily{pplj}\selectfont is the command for oldstyle number when "palatino" font is used
+\newcommand{\myVersion}{\textsc{version} \oldstylenums{1.0}\xspace}
+\newcommand{\mySubmission}{A thesis submitted to the \myUni \\ for the degree of \myDegree}
+%====================================================
+% turn of those nasty overfull and underfull hboxes
+\hbadness=10000
+\hfuzz=50pt
+\pagenumbering{roman} % Roman page numbering prior to the start of the thesis content (i, ii, iii, etc.)
+%\pagestyle{plain} % Suppress headers for pre-content pages
+
+% Nomenclature
+\makenomenclature
+
+% Glossary
+\makenoidxglossaries
+	\loadglsentries{FrontMatter/Glossary}
+
+% For Previewing only certain chapters by themselves.
+%\includeonly{MainMatter/1chapter/chap1}
+
+\begin{document}
+%%****************
+%=====================================================
+%	pre-content thesis pages
+%=====================================================
+\include{FrontMatter/Titlepage}
+\include{FrontMatter/Declaration} 
+\pagestyle{front}
+\include{FrontMatter/Acknowledgments}
+\include{FrontMatter/Abstract}
+\include{FrontMatter/Preface}
+\include{FrontMatter/Quote}
+\include{FrontMatter/Publication}
+\include{FrontMatter/Contents} % Includes contents, list of figs/tables/listings and acronyms and nomenclature
+%=====================================================
+%	thesis main matter: chapters
+%=====================================================
+\pagestyle{main}
+\pagenumbering{arabic} % page numbers arabic (1, 2, 3 etc.) change from pre content roman.
+%	\setcounter{page}{90} % Uncomment to manually start page counter at an arbitrary value.
+\include{MainMatter/1chapter/chap1}
+\include{MainMatter/2chapter/chap2}
+\include{MainMatter/3chapter/chap3}
+%%------------------------------------------------
+%% Appendices
+%%------------------------------------------------
+\appendix
+\include{Appendix/appendixA}
+%=====================================================
+%	backmatter: bibliography, colophon and declaration
+%=====================================================
+\pagestyle{front}
+\include{BackMatter/Bibliography} % Bibliography
+\include{BackMatter/Colophon} % Colophon
+%-----------------------------------------------------
+\end{document}

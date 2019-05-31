@@ -1,0 +1,16 @@
+% Bibliography
+%\newgeometry{a4paper,
+% 	total={140mm,240mm}, % A4 is 210mm by 297mm; 
+%					% 120mm for ~ 66 character with 12pt
+%					% 115mm for ~ 66 character with 11pt
+% 	left=45mm,
+% 	top=33mm,}
+\makeatletter
+\interlinepenalty=10000 % stop reference entries spilling over two pages
+\label{app:bibliography} % Reference the bibliography elsewhere with \autoref{app:bibliography}
+%\addtocontents{toc}{\protect\vspace{\beforebibskip}} % to have the bib a bit from the rest in the toc
+%\addcontentsline{toc}{chapter}{\tocEntry{\bibname}}
+\bibliographystyle{myplainnatcopy}
+\bibliography{Bibliography}
+\makeatother
+%\restoregeometry
