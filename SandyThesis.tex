@@ -2,7 +2,7 @@
 %	SANDY THESIS TEMPLATE
 %=====================================================
 \documentclass[a4paper,12pt,oneside]{book} %oneside - for printing on one side
-\usepackage{SandyThesis} %Provides all the packages that were originally below to make it more neat
+\usepackage{SandyThesis} % Loads SandyThesis.sty
 %=====================================================
 %	PERSONAL INFO
 %=====================================================
@@ -17,11 +17,11 @@
 \newcommand{\myDepartment}{Department of XXXXXX}
 \newcommand{\myUni}{University of XXXXXX}
 \newcommand{\myLocation}{Town, Country}
-\newcommand{\myTime}{\textsc{month \fontfamily{pplj}\selectfont year}} % fontfamily{pplj}\selectfont is the command for oldstyle number when "palatino" font is used
+\newcommand{\myTime}{\textsc{month \fontfamily{pplj}\selectfont year}}
 \newcommand{\myVersion}{\textsc{version} \oldstylenums{1.0}\xspace}
 \newcommand{\mySubmission}{A thesis submitted to the \myUni \\ for the degree of \myDegree}
 %====================================================
-% turn of those nasty overfull and underfull hboxes
+% turn off those nasty overfull and underfull hboxes
 \hbadness=10000
 \hfuzz=50pt
 \pagenumbering{roman} % Roman page numbering prior to the start of the thesis content (i, ii, iii, etc.)
@@ -38,15 +38,13 @@
 %\includeonly{MainMatter/1chapter/chap1}
 
 \begin{document}
-%%****************
 %=====================================================
 %	pre-content thesis pages
 %=====================================================
 \include{FrontMatter/Titlepage}
-\include{FrontMatter/Declaration} 
 \pagestyle{front}
-\include{FrontMatter/Acknowledgments}
 \include{FrontMatter/Abstract}
+\include{FrontMatter/Acknowledgments}
 \include{FrontMatter/Preface}
 \include{FrontMatter/Quote}
 \include{FrontMatter/Publication}
@@ -71,5 +69,6 @@
 \pagestyle{front}
 \include{BackMatter/Bibliography} % Bibliography
 \include{BackMatter/Colophon} % Colophon
+\include{BackMatter/Declaration}
 %-----------------------------------------------------
 \end{document}

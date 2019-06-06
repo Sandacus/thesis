@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.29)  7 APR 2019 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.29)  6 JUN 2019 22:22
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **SandyThesis.tex
 (./SandyThesis.tex
@@ -1036,7 +1035,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip75
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 73.
+Package hyperref Info: Option `colorlinks' set `true' on input line 67.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
@@ -1356,7 +1355,7 @@ Package cleveref Info: always capitalise cross-reference names on input line 78
 52.
 Package cleveref Info: include cross-reference names in hyperlinks on input lin
 e 7852.
-)
+))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2018/07/23 v4.41 (NLCT)
 
@@ -1500,7 +1499,7 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 ty
 Package: glossary-tree 2018/07/23 v4.41 (NLCT)
 \glstreeindent=\skip128
-))) (./FrontMatter/Glossary.tex) (./SandyThesis.aux
+)) (./FrontMatter/Glossary.tex) (./SandyThesis.aux
 (./FrontMatter/Titlepage.aux) (./FrontMatter/Declaration.aux)
 (./FrontMatter/Acknowledgments.aux) (./FrontMatter/Abstract.aux)
 (./FrontMatter/Preface.aux) (./FrontMatter/Quote.aux)
@@ -1510,28 +1509,28 @@ Package: glossary-tree 2018/07/23 v4.41 (NLCT)
 (./BackMatter/Bibliography.aux) (./BackMatter/Colophon.aux))
 \openout1 = `SandyThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 40.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 42.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 40.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
@@ -1595,24 +1594,24 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 \symgns@font=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/ppl/m/n --> TS1/ppl/bx/n on input line 42.
-Package gensymb Info: Math companion symbols declared on input line 42.
-LaTeX Info: Redefining \degree on input line 42.
-LaTeX Info: Redefining \celsius on input line 42.
+(Font)                  TS1/ppl/m/n --> TS1/ppl/bx/n on input line 40.
+Package gensymb Info: Math companion symbols declared on input line 40.
+LaTeX Info: Redefining \degree on input line 40.
+LaTeX Info: Redefining \celsius on input line 40.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 42.
-LaTeX Info: Redefining \ohm on input line 42.
-Package gensymb Info: Using \textohm for \ohm on input line 42.
-LaTeX Info: Redefining \micro on input line 42.
-Package gensymb Info: Using \textmu for \micro on input line 42.
+erthousand on input line 40.
+LaTeX Info: Redefining \ohm on input line 40.
+Package gensymb Info: Using \textohm for \ohm on input line 40.
+LaTeX Info: Redefining \micro on input line 40.
+Package gensymb Info: Using \textmu for \micro on input line 40.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 42.
+LaTeX Info: Redefining \selectfont on input line 40.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
 \AtBeginShipoutBox=\box66
-Package hyperref Info: Link coloring ON on input line 42.
+Package hyperref Info: Link coloring ON on input line 40.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1622,9 +1621,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count401
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
 
 (./SandyThesis.out) (./SandyThesis.out)
 \@outlinefile=\write4
@@ -1633,24 +1632,24 @@ LaTeX Info: Redefining \nameref on input line 42.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 42.
+. Activating mapping `default' on line 40.
 .................................................
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (./SandyThesis.glsdefs)
-LaTeX Font Info:    Try loading font information for U+msa on input line 42.
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 42.
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 42.
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 40.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
@@ -1660,8 +1659,8 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 
 (./FrontMatter/Titlepage.tex
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./gfx/title/logo.pdf): PDF i
-nclusion: found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex (file ./gfx/title/logo.pdf): PDF inclusion: found PDF 
+version <1.7>, but at most version <1.5> allowed
 <gfx/title/logo.pdf, id=44, 318.18875pt x 120.45pt>
 File: gfx/title/logo.pdf Graphic file (type pdf)
 <use gfx/title/logo.pdf>
@@ -1689,7 +1688,7 @@ e 26.
 ]
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 49.
+less on input line 47.
 
 \openout2 = `FrontMatter/Acknowledgments.aux'.
 
@@ -1771,7 +1770,7 @@ m}]. Rerun may be required (or you may have forgotten to use commands like \gls
 ])
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 59.
+less on input line 57.
 
 \openout2 = `MainMatter/1chapter/chap1.aux'.
 
@@ -1784,7 +1783,7 @@ Chapter 1.
 
 ]
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 62.
+e 60.
 \openout2 = `MainMatter/2chapter/chap2.aux'.
 
  (./MainMatter/2chapter/chap2.tex
@@ -1825,23 +1824,20 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ]
 \openout2 = `Appendix/appendixA.aux'.
 
- (./Appendix/appendixA.tex
-Appendix A.
-) [4
 
-
-
-]
+No file Appendix/appendixA.tex.
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 73.
+less on input line 71.
 
 \openout2 = `BackMatter/Bibliography.aux'.
 
 (./BackMatter/Bibliography.tex (./SandyThesis.bbl
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 13.
-)) [5
+)) [4
+
+
 
 
 
@@ -1863,12 +1859,12 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 14.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)) [6
+)) [5
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
 
 (./SandyThesis.aux (./FrontMatter/Titlepage.aux) (./FrontMatter/Declaration.aux
 ) (./FrontMatter/Acknowledgments.aux) (./FrontMatter/Abstract.aux)
@@ -1877,35 +1873,48 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
 (./MainMatter/1chapter/chap1.aux) (./MainMatter/2chapter/chap2.aux)
 (./MainMatter/3chapter/chap3.aux) (./Appendix/appendixA.aux)
 (./BackMatter/Bibliography.aux) (./BackMatter/Colophon.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
-Package rerunfilecheck Info: File `SandyThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 50D3A41B06FF0AA85D4F5FF0D839DDC2;568.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
+
+
+Package rerunfilecheck Warning: File `SandyThesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `SandyThesis.out':
+(rerunfilecheck)             Before: 50D3A41B06FF0AA85D4F5FF0D839DDC2;568
+(rerunfilecheck)             After:  98E4E0957D312E483D564291818053D8;511.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 33908 strings out of 492646
- 630339 string characters out of 6129563
+ 33905 strings out of 492646
+ 630287 string characters out of 6129563
  871947 words of memory out of 5000000
  37124 multiletter control sequences out of 15000+600000
  586013 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,13n,94p,2041b,771s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
-exlive/2018/texmf-dist/fonts/enc/dvips/cabin/cbn_jjp77t.enc}</usr/local/texlive
-/2018/texmf-dist/fonts/type1/impallari/cabin/Cabin-Regular.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texliv
-e/2018/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2018/t
-exmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2018/texmf-di
-st/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts
-/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
-urw/palatino/uplbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/pa
-latino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/
-uplri8a.pfb>
-Output written on SandyThesis.pdf (16 pages, 140435 bytes).
+ 60i,13n,94p,2040b,771s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{appendix.A} has been referenced but does not exis
+t, replaced by a fixed one
+
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
+live/2018/texmf-dist/fonts/enc/dvips/cabin/cbn_jjp77t.enc}</usr/local/texlive/2
+018/texmf-dist/fonts/type1/impallari/cabin/Cabin-Regular.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2018/tex
+mf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2018/texmf-dist
+/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
+ype1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/ur
+w/palatino/uplbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/pala
+tino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/up
+lri8a.pfb>
+Output written on SandyThesis.pdf (15 pages, 139102 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
