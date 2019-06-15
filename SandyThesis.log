@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.29)  6 JUN 2019 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.29)  15 JUN 2019 21:59
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **SandyThesis.tex
 (./SandyThesis.tex
@@ -1500,13 +1501,13 @@ ty
 Package: glossary-tree 2018/07/23 v4.41 (NLCT)
 \glstreeindent=\skip128
 )) (./FrontMatter/Glossary.tex) (./SandyThesis.aux
-(./FrontMatter/Titlepage.aux) (./FrontMatter/Declaration.aux)
-(./FrontMatter/Acknowledgments.aux) (./FrontMatter/Abstract.aux)
-(./FrontMatter/Preface.aux) (./FrontMatter/Quote.aux)
-(./FrontMatter/Publication.aux) (./FrontMatter/Contents.aux)
-(./MainMatter/1chapter/chap1.aux) (./MainMatter/2chapter/chap2.aux)
-(./MainMatter/3chapter/chap3.aux) (./Appendix/appendixA.aux)
-(./BackMatter/Bibliography.aux) (./BackMatter/Colophon.aux))
+(./FrontMatter/Titlepage.aux) (./FrontMatter/Abstract.aux)
+(./FrontMatter/Acknowledgments.aux) (./FrontMatter/Preface.aux)
+(./FrontMatter/Quote.aux) (./FrontMatter/Publication.aux)
+(./FrontMatter/Contents.aux) (./MainMatter/1chapter/chap1.aux)
+(./MainMatter/2chapter/chap2.aux) (./MainMatter/3chapter/chap3.aux)
+(./Appendix/appendixA.aux) (./BackMatter/Bibliography.aux)
+(./BackMatter/Colophon.aux) (./BackMatter/Declaration.aux))
 \openout1 = `SandyThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -1659,9 +1660,9 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 
 (./FrontMatter/Titlepage.tex
 
-pdfTeX warning: pdflatex (file ./gfx/title/logo.pdf): PDF inclusion: found PDF 
-version <1.7>, but at most version <1.5> allowed
-<gfx/title/logo.pdf, id=44, 318.18875pt x 120.45pt>
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./gfx/title/logo.pdf): PDF i
+nclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<gfx/title/logo.pdf, id=36, 318.18875pt x 120.45pt>
 File: gfx/title/logo.pdf Graphic file (type pdf)
 <use gfx/title/logo.pdf>
 Package pdftex.def Info: gfx/title/logo.pdf  used on input line 14.
@@ -1679,27 +1680,20 @@ itle/logo.pdf>]
 Package marginnote Info: Using workaround for absolute page number on input lin
 e 26.
 )
-\openout2 = `FrontMatter/Declaration.aux'.
-
- (./FrontMatter/Declaration.tex) [1
-
-
-
-]
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 47.
+less on input line 45.
 
-\openout2 = `FrontMatter/Acknowledgments.aux'.
+\openout2 = `FrontMatter/Abstract.aux'.
 
-(./FrontMatter/Acknowledgments.tex) [2
+(./FrontMatter/Abstract.tex) [1
 
 
 
 ]
-\openout2 = `FrontMatter/Abstract.aux'.
+\openout2 = `FrontMatter/Acknowledgments.aux'.
 
- (./FrontMatter/Abstract.tex) [3
+ (./FrontMatter/Acknowledgments.tex) [2
 
 
 
@@ -1707,14 +1701,14 @@ less on input line 47.
 \openout2 = `FrontMatter/Preface.aux'.
 
 
-(./FrontMatter/Preface.tex) [4
+(./FrontMatter/Preface.tex) [3
 
 
 
 ]
 \openout2 = `FrontMatter/Quote.aux'.
 
- (./FrontMatter/Quote.tex) [5
+ (./FrontMatter/Quote.tex) [4
 
 
 ]
@@ -1724,7 +1718,7 @@ less on input line 47.
 (./FrontMatter/Publication.tex
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 9.
-) [6
+) [5
 
 
 
@@ -1739,7 +1733,7 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <12> not available
 \tf@toc=\write5
 \openout5 = `SandyThesis.toc'.
 
- [7
+ [6
 
 
 
@@ -1747,7 +1741,7 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <12> not available
 \tf@lof=\write6
 \openout6 = `SandyThesis.lof'.
 
- [8
+ [7
 
 ] (./SandyThesis.lot)
 \tf@lot=\write7
@@ -1765,25 +1759,27 @@ Package glossaries Warning: Empty glossary for \printnoidxglossary[type={acrony
 m}]. Rerun may be required (or you may have forgotten to use commands like \gls
 ) on input line 7.
 
-[9
+[8
 
 ])
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 57.
+less on input line 55.
 
 \openout2 = `MainMatter/1chapter/chap1.aux'.
 
 (./MainMatter/1chapter/chap1.tex
 Chapter 1.
+
+Package natbib Warning: Citation `Example2019' on page 1 undefined on input lin
+e 10.
+
 ) [1
 
 
 
 
 ]
-Package marginnote Info: Using workaround for absolute page number on input lin
-e 60.
 \openout2 = `MainMatter/2chapter/chap2.aux'.
 
  (./MainMatter/2chapter/chap2.tex
@@ -1792,13 +1788,70 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <14.4> not available
 (Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 6.
+<gfx/2chapter/ctan_lion.png, id=110, 351.3125pt x 312.16624pt>
+File: gfx/2chapter/ctan_lion.png Graphic file (type png)
+<use gfx/2chapter/ctan_lion.png>
+Package pdftex.def Info: gfx/2chapter/ctan_lion.png  used on input line 22.
+(pdftex.def)             Requested size: 110.96687pt x 98.59962pt.
+LaTeX Font Info:    Try loading font information for OT1+Cabin-TLF on input lin
+e 22.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/cabin/OT1Cabin-TLF.fd
+File: OT1Cabin-TLF.fd 2018/05/18 (autoinst) Font definitions for OT1/Cabin-TLF.
+
+)
+LaTeX Font Info:    Font shape `OT1/Cabin-TLF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 22.
+LaTeX Font Info:    Font shape `OT1/Cabin-TLF/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 22.
+<gfx/2chapter/ubuntu.png, id=111, 438.63875pt x 438.63875pt>
+File: gfx/2chapter/ubuntu.png Graphic file (type png)
+<use gfx/2chapter/ubuntu.png>
+Package pdftex.def Info: gfx/2chapter/ubuntu.png  used on input line 22.
+(pdftex.def)             Requested size: 110.96687pt x 110.96455pt.
+<gfx/2chapter/raspi.jpg, id=112, 652.4375pt x 581.17125pt>
+File: gfx/2chapter/raspi.jpg Graphic file (type jpg)
+<use gfx/2chapter/raspi.jpg>
+Package pdftex.def Info: gfx/2chapter/raspi.jpg  used on input line 34.
+(pdftex.def)             Requested size: 110.96687pt x 98.84213pt.
+<gfx/2chapter/arch.png, id=113, 722.7pt x 722.7pt>
+File: gfx/2chapter/arch.png Graphic file (type png)
+<use gfx/2chapter/arch.png>
+Package pdftex.def Info: gfx/2chapter/arch.png  used on input line 34.
+(pdftex.def)             Requested size: 110.96687pt x 110.9587pt.
+LaTeX Font Info:    Font shape `OT1/Cabin-TLF/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 36.
+LaTeX Font Info:    Font shape `OT1/Cabin-TLF/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 36.
+LaTeX Font Info:    Font shape `OT1/Cabin-TLF/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 36.
+
+Overfull \hbox (14.22636pt too wide) in paragraph at lines 36--36
+[] [] 
+ []
+
+
+Overfull \hbox (14.22636pt too wide) in paragraph at lines 44--44
+[] [] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 53.
+
+Package natbib Warning: Citation `Example2019' on page 2 undefined on input lin
+e 53.
+
+
+Package natbib Warning: Citation `Example2019' on page 2 undefined on input lin
+e 54.
+
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 7.
-) [2
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 68.
+[2
 
 
 
-]
+ <./gfx/2chapter/ctan_lion.png> <./gfx/2chapter/ubuntu.png> <./gfx/2chapter/ras
+pi.jpg> <./gfx/2chapter/arch.png>]) [3]
 \openout2 = `MainMatter/3chapter/chap3.aux'.
 
  (./MainMatter/3chapter/chap3.tex
@@ -1817,7 +1870,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `superscript' on input line 6.
 
-) [3
+) [4
 
 
 
@@ -1828,31 +1881,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 No file Appendix/appendixA.tex.
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 71.
+less on input line 69.
 
 \openout2 = `BackMatter/Bibliography.aux'.
 
-(./BackMatter/Bibliography.tex (./SandyThesis.bbl
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 13.
-)) [4
-
-
-
-
-
-]
+(./BackMatter/Bibliography.tex (./SandyThesis.bbl))
 \openout2 = `BackMatter/Colophon.aux'.
 
-
-(./BackMatter/Colophon.tex
-LaTeX Font Info:    Try loading font information for OT1+Cabin-TLF on input lin
-e 13.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/cabin/OT1Cabin-TLF.fd
-File: OT1Cabin-TLF.fd 2018/05/18 (autoinst) Font definitions for OT1/Cabin-TLF.
-
-)
+ (./BackMatter/Colophon.tex
 LaTeX Font Info:    Font shape `OT1/Cabin-TLF/m/n' will be
 (Font)              scaled to size 10.40245pt on input line 13.
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 14.
@@ -1862,59 +1898,61 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )) [5
 
 
+
+
+
+
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
-
-(./SandyThesis.aux (./FrontMatter/Titlepage.aux) (./FrontMatter/Declaration.aux
-) (./FrontMatter/Acknowledgments.aux) (./FrontMatter/Abstract.aux)
-(./FrontMatter/Preface.aux) (./FrontMatter/Quote.aux)
-(./FrontMatter/Publication.aux) (./FrontMatter/Contents.aux)
-(./MainMatter/1chapter/chap1.aux) (./MainMatter/2chapter/chap2.aux)
-(./MainMatter/3chapter/chap3.aux) (./Appendix/appendixA.aux)
-(./BackMatter/Bibliography.aux) (./BackMatter/Colophon.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
+\openout2 = `BackMatter/Declaration.aux'.
 
 
-Package rerunfilecheck Warning: File `SandyThesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+(./BackMatter/Declaration.tex) [6
 
-Package rerunfilecheck Info: Checksums for `SandyThesis.out':
-(rerunfilecheck)             Before: 50D3A41B06FF0AA85D4F5FF0D839DDC2;568
-(rerunfilecheck)             After:  98E4E0957D312E483D564291818053D8;511.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
+]
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
+(./SandyThesis.aux (./FrontMatter/Titlepage.aux) (./FrontMatter/Abstract.aux)
+(./FrontMatter/Acknowledgments.aux) (./FrontMatter/Preface.aux)
+(./FrontMatter/Quote.aux) (./FrontMatter/Publication.aux)
+(./FrontMatter/Contents.aux) (./MainMatter/1chapter/chap1.aux)
+(./MainMatter/2chapter/chap2.aux) (./MainMatter/3chapter/chap3.aux)
+(./Appendix/appendixA.aux) (./BackMatter/Bibliography.aux)
+(./BackMatter/Colophon.aux) (./BackMatter/Declaration.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
+Package rerunfilecheck Info: File `SandyThesis.out' has not changed.
+(rerunfilecheck)             Checksum: EBBD677F3C211AB747ED688E612991BD;464.
  ) 
 Here is how much of TeX's memory you used:
- 33905 strings out of 492646
- 630287 string characters out of 6129563
- 871947 words of memory out of 5000000
- 37124 multiletter control sequences out of 15000+600000
- 586013 words of font info for 160 fonts, out of 8000000 for 9000
+ 33974 strings out of 492646
+ 631470 string characters out of 6129563
+ 876508 words of memory out of 5000000
+ 37175 multiletter control sequences out of 15000+600000
+ 606653 words of font info for 177 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,13n,94p,2040b,771s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{appendix.A} has been referenced but does not exis
-t, replaced by a fixed one
-
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
-live/2018/texmf-dist/fonts/enc/dvips/cabin/cbn_jjp77t.enc}</usr/local/texlive/2
-018/texmf-dist/fonts/type1/impallari/cabin/Cabin-Regular.pfb></usr/local/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/
-2018/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2018/tex
-mf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2018/texmf-dist
-/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
-ype1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/ur
-w/palatino/uplbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/pala
-tino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/up
-lri8a.pfb>
-Output written on SandyThesis.pdf (15 pages, 139102 bytes).
+ 60i,13n,97p,2040b,771s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2018/texmf-dist/fonts/enc/dvips/cabin/cbn_jjp77t.enc}</usr/local/texlive
+/2018/texmf-dist/fonts/type1/impallari/cabin/Cabin-Bold.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/impallari/cabin/Cabin-Regular.pfb></usr/local/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2018/t
+exmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts
+/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
+urw/palatino/uplbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/pa
+latino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/
+uplri8a.pfb>
+Output written on SandyThesis.pdf (15 pages, 280548 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 209 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 90 words of extra memory for PDF output out of 10000 (max. 10000000)
 
